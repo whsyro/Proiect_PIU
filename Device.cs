@@ -17,6 +17,17 @@ namespace Service_GSM
             Manufacturer = manufacturer;
             SerialNumber = serialNumber;
         }
-
+        public string GetModel()
+        {
+            return Model;
+        }
+        public string GetManufacturer() 
+        {
+            return Manufacturer;
+        }
+        public string GetSerialNumber()
+        {
+            return SerialNumber;
+        }
     }
 }

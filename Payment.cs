@@ -19,5 +19,21 @@ namespace Service_GSM
             Date = date;
             PaymentMethod = paymentMethod;
         }
+        public string GetCustomerName()
+        {
+            return CustomerName;
+        }
+        public decimal GetAmount()
+        {
+            return Amount;
+        }
+        public DateTime GetDate()
+        {
+            return Date;
+        }
+        public string GetPaymentMethod()
+        {
+            return PaymentMethod;
+        }
     }
 }
